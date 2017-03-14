@@ -40,8 +40,8 @@ public class PlayerController : MonoBehaviour {
     }
     void OnCollisionEnter(Collision outro) {
         if (GameController.instancia.estado == Estado.Jogando) {
-            if (outro.gameObject.tag == "obstaculo") {
-                rb.AddForce(new Vector3(-50f, 20f, 0f), ForceMode.Impulse);
+            if (outro.gameObject.tag == "obstaculo" || outro.gameObject.tag == "pranchas") {
+                rb.AddForce(new Vector3(-2f, 1f, 0f), ForceMode.Impulse);
                 rb.detectCollisions = false;
             anim.Play("morrendo");
             audioSource.PlayOneShot(somMorte);
@@ -49,4 +49,7 @@ public class PlayerController : MonoBehaviour {
             }
         }
     }
+
+
+
 }

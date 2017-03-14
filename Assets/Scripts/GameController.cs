@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour {
+    
+    public Estado estado { get; private set; }
+
     public GameObject obstaculo;
     public float espera;
     public float tempoDestruiocao;
     public static GameController instancia = null;
 
     private void Awake() {
-        if (instancia = null) {
+        if (instancia == null) {
             instancia = this;
         }
         else if (instancia != null) {
@@ -19,11 +22,11 @@ public class GameController : MonoBehaviour {
     }
 
     void Start() {
-        StartCoroutine(GerarObstaculos());
-    }
+        estado = Estado.AguardoComecar;
+      }
 
     IEnumerator GerarObstaculos() {
-        while (true) {
+        while (GameController.instancia.estado == Estado.Jogando) {
             Vector3 pos = new Vector3(-7f, Random.Range(13f, 17f), 0f);
             GameObject obj = Instantiate(obstaculo, pos, Quaternion.identity) as GameObject;
             Destroy(obj, tempoDestruiocao);
@@ -31,7 +34,12 @@ public class GameController : MonoBehaviour {
         }
     }
 
-	void Update () {
-		
-	}
+	public void PlayerComecou() {
+        estado = Estado.Jogando;
+        StartCoroutine(GerarObstaculos());
+    }
+
+    public void PlayerMorreu() {
+        estado = Estado.GameOver;
+    }
 }

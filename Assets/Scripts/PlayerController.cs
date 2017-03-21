@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour {
     void Update() {
         if (GameController.instancia.estado == Estado.Jogando || GameController.instancia.estado == Estado.AguardoComecar) {
             if (Input.GetMouseButtonDown(0)) {
-                anim.Play("pulando");
+                anim.Play("Pulando");
                 audioSource.PlayOneShot(somPulo);
                 rb.useGravity = true;
                 pulando = true;
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
             if (outro.gameObject.tag == "obstaculo" || outro.gameObject.tag == "pranchas") {
                 rb.AddForce(new Vector3(-2f, 1f, 0f), ForceMode.Impulse);
                 rb.detectCollisions = false;
-            anim.Play("morrendo");
+            anim.Play("Morte");
             audioSource.PlayOneShot(somMorte);
             GameController.instancia.PlayerMorreu();
             }

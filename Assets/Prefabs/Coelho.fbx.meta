@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: d5268038733956a4994d4bc23f81ffec
+timeCreated: 1490181838
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.001_end
+    100008: Bone.002
+    100010: Bone.002_end
+    100012: Bone.003
+    100014: Bone.003_end
+    100016: Bone.004
+    100018: Bone.004_end
+    100020: Bone.005
+    100022: //RootNode
+    100024: Cube.002
+    100026: Cylinder.001
+    100028: Icosphere.001
+    100030: Icosphere.002
+    100032: ORG-Bone
+    100034: ORG-Bone.001
+    100036: ORG-Bone.001_end
+    100038: ORG-Bone.002
+    100040: ORG-Bone.002_end
+    100042: ORG-Bone.003
+    100044: ORG-Bone.003_end
+    100046: ORG-Bone.004
+    100048: ORG-Bone.004_end
+    100050: ORG-Bone.005
+    100052: ORG-perna esq atras
+    100054: ORG-perna esq atras controle
+    100056: ORG-perna esq atras controle.001
+    100058: ORG-perna esq atras controle.001_end
+    100060: ORG-perna esq atras controle_end
+    100062: ORG-perna esq atras.001
+    100064: ORG-perna esq atras.001_end
+    100066: ORG-perna esq atras_end
+    100068: ORG-perna esq frente
+    100070: ORG-perna esq frente controle
+    100072: ORG-perna esq frente controle.001
+    100074: ORG-perna esq frente controle.001_end
+    100076: ORG-perna esq frente controle_end
+    100078: ORG-perna esq frente.001
+    100080: ORG-perna esq frente.001_end
+    100082: ORG-perna esq frente_end
+    100084: perna esq atras
+    100086: perna esq atras controle
+    100088: perna esq atras controle.001
+    100090: perna esq atras controle.001_end
+    100092: perna esq atras controle_end
+    100094: perna esq atras.001
+    100096: perna esq atras.001_end
+    100098: perna esq atras_end
+    100100: perna esq frente
+    100102: perna esq frente controle
+    100104: perna esq frente controle.001
+    100106: perna esq frente controle.001_end
+    100108: perna esq frente controle_end
+    100110: perna esq frente.001
+    100112: perna esq frente.001_end
+    100114: perna esq frente_end
+    100116: rig
+    100118: root
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.001_end
+    400008: Bone.002
+    400010: Bone.002_end
+    400012: Bone.003
+    400014: Bone.003_end
+    400016: Bone.004
+    400018: Bone.004_end
+    400020: Bone.005
+    400022: //RootNode
+    400024: Cube.002
+    400026: Cylinder.001
+    400028: Icosphere.001
+    400030: Icosphere.002
+    400032: ORG-Bone
+    400034: ORG-Bone.001
+    400036: ORG-Bone.001_end
+    400038: ORG-Bone.002
+    400040: ORG-Bone.002_end
+    400042: ORG-Bone.003
+    400044: ORG-Bone.003_end
+    400046: ORG-Bone.004
+    400048: ORG-Bone.004_end
+    400050: ORG-Bone.005
+    400052: ORG-perna esq atras
+    400054: ORG-perna esq atras controle
+    400056: ORG-perna esq atras controle.001
+    400058: ORG-perna esq atras controle.001_end
+    400060: ORG-perna esq atras controle_end
+    400062: ORG-perna esq atras.001
+    400064: ORG-perna esq atras.001_end
+    400066: ORG-perna esq atras_end
+    400068: ORG-perna esq frente
+    400070: ORG-perna esq frente controle
+    400072: ORG-perna esq frente controle.001
+    400074: ORG-perna esq frente controle.001_end
+    400076: ORG-perna esq frente controle_end
+    400078: ORG-perna esq frente.001
+    400080: ORG-perna esq frente.001_end
+    400082: ORG-perna esq frente_end
+    400084: perna esq atras
+    400086: perna esq atras controle
+    400088: perna esq atras controle.001
+    400090: perna esq atras controle.001_end
+    400092: perna esq atras controle_end
+    400094: perna esq atras.001
+    400096: perna esq atras.001_end
+    400098: perna esq atras_end
+    400100: perna esq frente
+    400102: perna esq frente controle
+    400104: perna esq frente controle.001
+    400106: perna esq frente controle.001_end
+    400108: perna esq frente controle_end
+    400110: perna esq frente.001
+    400112: perna esq frente.001_end
+    400114: perna esq frente_end
+    400116: rig
+    400118: root
+    2300000: Cylinder.001
+    2300002: Icosphere.001
+    2300004: Icosphere.002
+    3300000: Cylinder.001
+    3300002: Icosphere.001
+    3300004: Icosphere.002
+    4300000: Cube.002
+    4300002: Icosphere.002
+    4300004: Cylinder.001
+    4300006: Icosphere.001
+    7400000: Aguardando
+    7400002: Armature|Cube.002Action
+    7400004: Armature|Cylinder.001Action
+    7400006: Girando
+    7400008: Cylinder.001|Cube.002Action
+    7400010: Cylinder.001|Cylinder.001Action
+    7400012: Cylinder.001|Icosphere.001Action
+    7400014: Icosphere.001|Cube.002Action
+    7400016: Morrendo
+    7400018: Icosphere.001|Icosphere.001Action
+    7400020: Pulando
+    9500000: //RootNode
+    13700000: Cube.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Aguardando
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.005
+        weight: 1
+      - path: Armature/Bone.005/Bone
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.002
+        weight: 1
+      - path: Armature/Bone.005/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.003
+        weight: 1
+      - path: Armature/Bone.005/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.004
+        weight: 1
+      - path: Armature/Bone.005/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras/perna esq atras_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle/perna esq atras controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001/perna esq atras controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001/perna esq atras.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente/perna esq frente_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle/perna esq frente controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001/perna esq frente controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001/perna esq frente.001_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Icosphere.002
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-Bone.005
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001/ORG-Bone.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002/ORG-Bone.002_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003/ORG-Bone.003_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004/ORG-Bone.004_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras/ORG-perna esq atras_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle/ORG-perna esq atras
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001/ORG-perna esq
+          atras controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001/ORG-perna esq atras.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente/ORG-perna esq frente_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle/ORG-perna esq frente
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001/ORG-perna esq
+          frente controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001/ORG-perna esq frente.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Morrendo
+      takeName: Armature|ArmatureAction
+      firstFrame: 67
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.005
+        weight: 1
+      - path: Armature/Bone.005/Bone
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.002
+        weight: 1
+      - path: Armature/Bone.005/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.003
+        weight: 1
+      - path: Armature/Bone.005/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.004
+        weight: 1
+      - path: Armature/Bone.005/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras/perna esq atras_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle/perna esq atras controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001/perna esq atras controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001/perna esq atras.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente/perna esq frente_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle/perna esq frente controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001/perna esq frente controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001/perna esq frente.001_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Icosphere.002
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-Bone.005
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001/ORG-Bone.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002/ORG-Bone.002_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003/ORG-Bone.003_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004/ORG-Bone.004_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras/ORG-perna esq atras_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle/ORG-perna esq atras
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001/ORG-perna esq
+          atras controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001/ORG-perna esq atras.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente/ORG-perna esq frente_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle/ORG-perna esq frente
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001/ORG-perna esq
+          frente controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001/ORG-perna esq frente.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pulando
+      takeName: Armature|ArmatureAction
+      firstFrame: 200
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.005
+        weight: 1
+      - path: Armature/Bone.005/Bone
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.002
+        weight: 1
+      - path: Armature/Bone.005/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.003
+        weight: 1
+      - path: Armature/Bone.005/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.004
+        weight: 1
+      - path: Armature/Bone.005/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras/perna esq atras_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle/perna esq atras controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001/perna esq atras controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001/perna esq atras.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente/perna esq frente_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle/perna esq frente controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001/perna esq frente controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001/perna esq frente.001_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Icosphere.002
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-Bone.005
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001/ORG-Bone.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002/ORG-Bone.002_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003/ORG-Bone.003_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004/ORG-Bone.004_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras/ORG-perna esq atras_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle/ORG-perna esq atras
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001/ORG-perna esq
+          atras controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001/ORG-perna esq atras.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente/ORG-perna esq frente_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle/ORG-perna esq frente
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001/ORG-perna esq
+          frente controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001/ORG-perna esq frente.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Girando
+      takeName: Armature|Icosphere.001Action
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.005
+        weight: 1
+      - path: Armature/Bone.005/Bone
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.002
+        weight: 1
+      - path: Armature/Bone.005/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.003
+        weight: 1
+      - path: Armature/Bone.005/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.004
+        weight: 1
+      - path: Armature/Bone.005/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras/perna esq atras_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle/perna esq atras controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001/perna esq atras controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001/perna esq atras.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente/perna esq frente_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle/perna esq frente controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001/perna esq frente controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001/perna esq frente.001_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Icosphere.002
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-Bone.005
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001/ORG-Bone.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002/ORG-Bone.002_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003/ORG-Bone.003_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004/ORG-Bone.004_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras/ORG-perna esq atras_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle/ORG-perna esq atras
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001/ORG-perna esq
+          atras controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001/ORG-perna esq atras.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente/ORG-perna esq frente_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle/ORG-perna esq frente
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001/ORG-perna esq
+          frente controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001/ORG-perna esq frente.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

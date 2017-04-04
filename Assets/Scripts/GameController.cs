@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,10 +27,10 @@ public class GameController : MonoBehaviour {
 
     IEnumerator GerarObstaculos() {
         while (GameController.instancia.estado == Estado.Jogando) {
-            Vector3 pos = new Vector3(-7f, Random.Range(13f, 17f), 0f);
-            GameObject obj = Instantiate(obstaculo, pos, Quaternion.identity) as GameObject;
-            Destroy(obj, tempoDestruiocao);
-            yield return new WaitForSeconds(espera);
+            Vector3 pos = new Vector3(10f, Random.Range(8f, 0f), -1f);
+				GameObject obj = Instantiate(obstaculo, pos, Quaternion.identity) as GameObject;
+				Destroy(obj, tempoDestruiocao);
+				yield return new WaitForSeconds(espera);
         }
     }
 

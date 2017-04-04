@@ -144,7 +144,7 @@ ModelImporter:
     7400012: Cylinder.001|Icosphere.001Action
     7400014: Icosphere.001|Cube.002Action
     7400016: Morrendo
-    7400018: Icosphere.001|Icosphere.001Action
+    7400018: Olhos
     7400020: Pulando
     9500000: //RootNode
     13700000: Cube.002
@@ -628,6 +628,158 @@ ModelImporter:
     - serializedVersion: 16
       name: Girando
       takeName: Armature|Icosphere.001Action
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone.005
+        weight: 1
+      - path: Armature/Bone.005/Bone
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone.005/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.002
+        weight: 1
+      - path: Armature/Bone.005/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.003
+        weight: 1
+      - path: Armature/Bone.005/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone.005/Bone.004
+        weight: 1
+      - path: Armature/Bone.005/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras/perna esq atras_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle/perna esq atras controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras controle.001/perna esq atras controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq atras.001/perna esq atras.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente/perna esq frente_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle/perna esq frente controle_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente controle.001/perna esq frente controle.001_end
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001
+        weight: 1
+      - path: Armature/Bone.005/perna esq frente.001/perna esq frente.001_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cylinder.001
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Icosphere.002
+        weight: 1
+      - path: rig
+        weight: 1
+      - path: rig/root
+        weight: 1
+      - path: rig/root/ORG-Bone.005
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone/ORG-Bone.001/ORG-Bone.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.002/ORG-Bone.002_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.003/ORG-Bone.003_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-Bone.004/ORG-Bone.004_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras/ORG-perna esq atras_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle/ORG-perna esq atras
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras controle.001/ORG-perna esq
+          atras controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq atras.001/ORG-perna esq atras.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente/ORG-perna esq frente_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle/ORG-perna esq frente
+          controle_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente controle.001/ORG-perna esq
+          frente controle.001_end
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001
+        weight: 1
+      - path: rig/root/ORG-Bone.005/ORG-perna esq frente.001/ORG-perna esq frente.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Olhos
+      takeName: Icosphere.001|Icosphere.001Action
       firstFrame: 0
       lastFrame: 120
       wrapMode: 0

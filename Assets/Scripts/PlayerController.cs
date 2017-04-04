@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour {
                 rb.AddForce(new Vector3(-2f, 1f, 0f), ForceMode.Impulse);
                 rb.detectCollisions = false;
             anim.Play("Morrendo");
-			anim.Play("Girando");
+				anim.Play("Olhos");		
             audioSource.PlayOneShot(somMorte);
             GameController.instancia.PlayerMorreu();
             }

@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour {
     
     public Estado estado { get; private set; }
 
+    public GameObject menu;
+    public GameObject canvas;
     public GameObject obstaculo;
     public float espera;
     public float tempoDestruiocao;
@@ -36,6 +38,8 @@ public class GameController : MonoBehaviour {
 
 	public void PlayerComecou() {
         estado = Estado.Jogando;
+        menu.SetActive(false);
+        canvas.SetActive(false);
         StartCoroutine(GerarObstaculos());
     }
 

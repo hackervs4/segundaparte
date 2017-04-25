@@ -11,10 +11,13 @@ public class GameController : MonoBehaviour {
 	public GameObject menuPanel;
     public GameObject obstaculo;
 	public Text txtPontos;
+	public Text txtMaiorPontuacao;
     public float espera;
     public float tempoDestruiocao;
     public static GameController instancia = null;
 	private int pontos;
+	public GameObject gameOverPanel;
+	public GameObject pontosPanel;
 
 
     private void Awake() {
@@ -29,6 +32,11 @@ public class GameController : MonoBehaviour {
 
     void Start() {
         estado = Estado.AguardoComecar;
+		PlayerPrefs.SetInt("HighScore", 0);
+		menuCamera.SetActive (true);
+		menuPanel.SetActive (true);
+		gameOverPanel.SetActive (false);
+		pontosPanel.SetActive (false);
       }
 
     IEnumerator GerarObstaculos() {
@@ -50,6 +58,7 @@ public class GameController : MonoBehaviour {
 		estado = Estado.Jogando;
 		menuCamera.SetActive(false);
 		menuPanel.SetActive(false);
+		pontosPanel.SetActive (true);
 		atualizarPontos(0);
 		StartCoroutine(GerarObstaculos());
 	}
@@ -60,6 +69,11 @@ public class GameController : MonoBehaviour {
 
     public void PlayerMorreu() {
         estado = Estado.GameOver;
+		if (pontos > PlayerPrefs.GetInt ("HighScore")) {
+			PlayerPrefs.SetInt ("HighScore", pontos);
+			txtMaiorPontuacao.text = "" + pontos;
+		}
+		gameOverPanel.SetActive (true);
     }
 
 }

@@ -9,12 +9,16 @@ public class Movimentacao : MonoBehaviour
     public float min;
     public float max;
     public float espera;
+	private GameObject player;
+	private bool pontuou = false;
 
     void Start()
     {
         StartCoroutine(Move(max));
     }
-
+	private void Awake (){
+		player = GameObject.Find ("Coelho");
+	}
     IEnumerator Move(float destino)
     {
         while (Mathf.Abs(destino - transform.position.y) > 0.2f)
@@ -39,5 +43,13 @@ public class Movimentacao : MonoBehaviour
 
         Vector3 direcaoh = Vector3.left * velocidadev;
         transform.position = transform.position + direcaoh * Time.deltaTime;
+
+		if (!pontuou && GameController.instancia.estado == Estado.Jogando) {
+			if (transform.position.x < player.transform.position.x) {
+				GameController.instancia.incrementarPontos(1);
+				pontuou = true;
+			}
+		}
+
     }
 }

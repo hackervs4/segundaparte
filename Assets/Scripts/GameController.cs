@@ -1,4 +1,4 @@
-﻿	using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour {
 	private int pontos;
 	public GameObject gameOverPanel;
 	public GameObject pontosPanel;
-
+	private List<GameObject> obstaculos;
 
     private void Awake() {
 		if (instancia == null) {
@@ -31,19 +31,27 @@ public class GameController : MonoBehaviour {
     }
 
     void Start() {
-        estado = Estado.AguardoComecar;
+		obstaculos = new List<GameObject>();
+		estado = Estado.AguardoComecar;
 		PlayerPrefs.SetInt("HighScore", 0);
 		menuCamera.SetActive (true);
 		menuPanel.SetActive (true);
 		gameOverPanel.SetActive (false);
 		pontosPanel.SetActive (false);
       }
+	IEnumerator DestruirObstaculo(GameObject obj) {
+		yield return new WaitForSeconds(15);
+		if (obstaculos.Remove(obj)) {
+			Destroy(obj);
+		}
+	}
 
     IEnumerator GerarObstaculos() {
         while (GameController.instancia.estado == Estado.Jogando) {
             Vector3 pos = new Vector3(10f, Random.Range(8f, 0f), 0f);
 				GameObject obj = Instantiate(obstaculo, pos, Quaternion.Euler(90f,0f,0f)) as GameObject;
-				Destroy(obj, tempoDestruiocao);
+			obstaculos.Add(obj);
+			StartCoroutine(DestruirObstaculo(obj));
 				yield return new WaitForSeconds(espera);
         }
     }
@@ -53,6 +61,20 @@ public class GameController : MonoBehaviour {
 		txtPontos.text = "" + x;
 	}
 
+	public void PlayerVoltou() {
+		while (obstaculos.Count > 0) {
+			GameObject obj = obstaculos[0];
+			if (obstaculos.Remove(obj)) {
+				Destroy(obj);
+			}
+		}
+		estado = Estado.AguardoComecar;
+		menuCamera.SetActive(true);
+		menuPanel.SetActive(true);
+		gameOverPanel.SetActive(false);
+		pontosPanel.SetActive(false);
+		GameObject.Find("Coelho").GetComponent<PlayerController>().recomecar();
+	}
 
 	public void PlayerComecou() {
 		estado = Estado.Jogando;
